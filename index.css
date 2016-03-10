@@ -1,10 +1,10 @@
 body {
-	background-color: #0099cc;
+	background-color: white;
 }
 
 .TopNav {
 	position: fixed;
-	top: 0;
+	top: 1%;
 	width: 99%;
     list-style-type: none;
     margin: 0;
@@ -14,7 +14,7 @@ body {
 }
 
 .Tabs{
-    float: left;
+    float: right;
 }
 
 li a {
@@ -29,12 +29,19 @@ li a:hover {
     background-color: #111;
 }
 
-.home {
-	background-color: #00ccff;
+#home {
+    background-color: blue;
+    font-size: 16px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .Intro {
-	padding-top: 70px;
+	padding-top: 15%;
+    padding-left: 20%;
 }
 
 .BottomNav {
@@ -52,3 +59,14 @@ li a:hover {
 	color: white;
 	padding: 20px 10%%;
 }
+
+p {
+    width: 30%
+}
+
+
+
+
+
+
+
