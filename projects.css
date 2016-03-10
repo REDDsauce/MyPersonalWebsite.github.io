@@ -1,0 +1,56 @@
+body {
+	background-color: white;
+}
+
+.TopNav {
+	position: fixed;
+	top: 1%;
+	width: 99%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.Tabs{
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#home {
+    background-color: blue;
+    font-size: 16px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.BottomNav {
+	position: fixed;
+	bottom: 1%;
+	width: 99%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.info {
+	color: white;
+	padding: 20px 10%%;
+}
