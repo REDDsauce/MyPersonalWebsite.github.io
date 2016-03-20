@@ -1,5 +1,18 @@
+img {
+    height: 240px;
+    width: auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 8%;
+}
+
 body {
-	background-color: white;
+    background-image:url("Background2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .TopNav {
@@ -51,10 +64,15 @@ li a:hover {
 }
 
 .info {
-	color: white;
-	padding: 20px 10%%;
+    color: white;
+    padding: 0.5% 3%;
+    float: left;
 }
 
-h1 {
-    padding-top: 100px;
+.BottomNav img {
+    float: right;
+    padding-top: 0.5%;
+    padding-right: 3%;
+    height: 50px;
+    width: auto;
 }
